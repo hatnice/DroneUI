@@ -20,9 +20,9 @@ func FibonacciLoop(n int) int {
     return f[n]
 }
 
-func FibonacciRecursion(n int) int {
-    if n <= 1 {
-        return n
+func FibonacciRecursion(num int) int {
+    if num <= 1 {
+        return num
     }
     return FibonacciRecursion(n-1) + FibonacciRecursion(n-2)
 }
