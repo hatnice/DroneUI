@@ -1,3 +1,5 @@
+//simple fibonacci to console app
+
 package main
 
 import (
